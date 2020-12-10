@@ -4,11 +4,16 @@ a = 7<br>
 b = 2.14<br>
 c = 'A'<br>
 
-Rules for naming Variables<br>
+#### Rules for naming Variables<br>
 + First character must be an alphabet or underscore.
 + No special symbols other than underscore are allowed.
 + Variables names are case sensitive.
 + Neither comma or blanks are allowed.
+
+### Types of variables
++ Integer Variables - int a = 3;<br>
++ Real Variables - float b = 3.3;<br>
++ Character Variables - char c = 'a';<br
   
 ## Constants
 As the name describe itself, the unchangeble values are called constants.
@@ -50,3 +55,13 @@ Multi
 Line
 Comment*/
 ```
+## Compilation and Execution
+![Compilation and Execution](https://github.com/DhananjayPorwal/YouTube/blob/main/C%20Programming/Gallery/Compilation%20and%20Execution.png)
+
+## Library Function
+C language has several valuable libraries functions which are used to carry out certain tasks. For example printf function is use to display message/text on screen.
+
+##### Receiving Input From User
+For receiving input form user we use a function called **scanf**.
+scanf("%d", &a);
+where %d shows input must be integer value and &a  shows address of variable a.

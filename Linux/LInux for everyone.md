@@ -66,4 +66,19 @@ Command= CommandName Options Inputs
 |cp x|copy file x|-|
 |pwd|Print Working Directory|-|
 |whoami|Show logged User|-|
-|exit|Exit Terminal|Ctrl + D or Alt + F4|\
+|exit|Exit Terminal|Ctrl + D or Alt + F4|
+
+### Advanced Package Tool
+
+> sudo apt-get update
+
+  OR
+
+> sudo apt update
+
+  are used to update list of all repo. available.
+```markdown
+Form Ubuntu 18.04 we can use `apt` instead of `apt-get`
+```
+
+> sudo apt upgrade

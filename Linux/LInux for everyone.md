@@ -18,7 +18,7 @@
 
 ### Users in Linux
 
-> Regular User: Home Directory
+> Regular User: Home Directory Access
 
 > Root User: Full Access
  

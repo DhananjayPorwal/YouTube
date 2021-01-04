@@ -1,0 +1,69 @@
+# Linux For Absolute Beginner
+
+### History of Linux
++ In 1969, a team of developers of Bell Labs started a project to make a common software for all the computers and named it as 'Unix'. It was simple and elegant, used 'C' language instead of assembly language and its code was recyclable. As it was recyclable, a part of its code now commonly called 'kernel' was used to develop the operating system and other functions and could be used on different systems. Also its source code was open source.
++ In 1991, Linus Torvalds a student at the university of Helsinki, Finland, thought to have a freely available academic version of Unix started writing its own code. Later this project became the Linux kernel. He wrote this program specially for his own PC as he wanted to use Unix 386 Intel computer but couldn't afford it. He did it on MINIX using GNU C compiler. GNU C compiler is still the main choice to compile Linux code but other compilers are also used like Intel C compiler. He started it just for fun but ended up with such a large project. Firstly he wanted to name it as 'Freax' but later it became 'Linux'. He published the Linux kernel under his own license and was restricted to use as commercially. Linux uses most of its tools from GNU software and are under GNU copyright. In 1992, he released the kernel under GNU General Public License.
+
+### Types of Linux Distro
+
+![Linux Distro](https://tellmeinsimpleterms.files.wordpress.com/2013/07/linux-tree.png)
+
+### Linux V/S Windows
+
+![Linux V/S Windows](https://cdn.educba.com/academy/wp-content/uploads/2018/08/Linux-vs-Windows-Server-1.jpg)
+
+### CLI V/S GUI
+
+![CLI V/S GUI](https://pediaa.com/wp-content/uploads/2018/07/Difference-Between-GUI-and-CLI-Comparison-Summary.jpg)
+
+### Users in Linux
+
+> Regular User: Home Directory
+
+> Root User: Full Access
+ 
+> Server User: Service based Access
+
+### Absolute & Relative Path
+
+![Path](https://1.bp.blogspot.com/-UQ7-sWd_J4w/WmhKIFx7_fI/AAAAAAAAHIE/tixi5SsyI5YzoJygq_JQKL50axe2cAcrQCLcBGAs/s1600/Untitled.png)
+
+### Command and Shell
+
+Gift         ---> English          ---> Present
+(Command)	  (Shell)		(Meaning)
+
+Gift         ---> German           ---> Poison
+(Command)	  (Shell)		(Meaning)
+
+
+Conclusion-
+Commands are just text you type in Terminal.
+Commands are interpreted by the Shell.
+Terminal is the window to the Shell.
+Commands are case sensitive.
+CommandNames needs to be on the Shell's search path.
+Commands operate on Inputs.
+Options modify a command's behaviours.
+Command= CommandName Options Inputs
+
+### Basic Commands
+|Command|Output|Shortcut Key|
+|-------|------|------------|
+|-|Open Terminal|Ctrl + Alt + T|
+|echo x|Print x|-|
+|cal|Shows Calender of current month|-|
+|cal 2020|Shows Calender of particular year|-|
+|cal -y|Shows Calender of current year|-|
+|date|Shows Date and Time|-|
+|clear|Clear Terminal screen|Ctrl + L|
+|history|Shows History|-|
+|!x |Print xth command of history|-|
+|!!|Print Recent command of history|-|
+|ls|list|-|
+|mkdir FolderName|Makes a folder of FolderName|-|
+|mv x|Move file x|-|
+|cp x|copy file x|-|
+|pwd|Print Working Directory|-|
+|whoami|Show logged User|-|
+|exit|Exit Terminal|Ctrl + D or Alt + F4|\

@@ -51,7 +51,7 @@ Command= CommandName Options Inputs
 |Command|Output|Shortcut Key|
 |-------|------|------------|
 |-|Open Terminal|Ctrl + Alt + T|
-|echo x|Print x|-|
+|echo x OR printf x|Print x|-|
 |cal|Shows Calender of current month|-|
 |cal 2020|Shows Calender of particular year|-|
 |cal -y|Shows Calender of current year|-|
@@ -78,7 +78,15 @@ Command= CommandName Options Inputs
 
   are used to update list of all repo. available.
 ```markdown
-Form Ubuntu 18.04 we can use `apt` instead of `apt-get`
+Form Ubuntu 18.04 we can use `apt` instead of `apt-get`.
 ```
 
 > sudo apt upgrade
+
+is used to update installed programs.
+
+```markdown
+🌟 CLT is case sensitive.
+```
+
+### User Permission

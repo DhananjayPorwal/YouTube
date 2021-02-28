@@ -90,3 +90,59 @@ is used to update installed programs.
 ```
 
 ### User Permission
+
+To understand this, type 
+> ls -l 
+
+in terminal.
+
+![sample](https://i.ibb.co/n356dL1/Screenshot-from-2021-02-28-13-52-09.png)
+
+So question is what -rw-r-r mean ?
+
+![chart](https://assets.digitalocean.com/articles/linux_basics/mode.png)
+
+
+### chmod
+
+This command is used to modify permission of owner, group and public.
+
+![chmod](https://i.ibb.co/1s9SjRN/Screenshot-from-2021-02-28-15-00-27.png)
+
+Here,<br>
+(111)<sub>2</sub> -> (7)<sub>10</sub> <br>
+(110)<sub>2</sub> -> (6)<sub>10</sub> <br>
+(100)<sub>2</sub> -> (4)<sub>10</sub> <br>
+
+> Refer this as Binary Number
+
+So, we can modify permission with the help of this command like
+
+```Bash
+chmod 764 filename.xyz
+```
+*****
+
+<code>
+$ -> Regular User
+</code><br>
+
+<code>
+# -> Root User
+</code><br>
+
+*****
+
+🌟 Some Important Linux Commands
+|S. No.|Command|Use|
+|-|-|-|
+|1|top|Shows resource consumer processes|
+|2|ps|Shows ongoing process|
+|3|ps -a|All onging process|
+|4|kill|To kill process|
+
+```
+For example- 
+kill 341123
+Where, 341123 is PID which we get by using "top" command.
+```
